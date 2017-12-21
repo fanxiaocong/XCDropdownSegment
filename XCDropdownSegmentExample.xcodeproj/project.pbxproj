@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E25AA361FE254BA0047E765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA351FE254BA0047E765 /* AppDelegate.m */; };
-		1E25AA391FE254BB0047E765 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA381FE254BB0047E765 /* ViewController.m */; };
-		1E25AA3C1FE254BB0047E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E25AA3A1FE254BB0047E765 /* Main.storyboard */; };
 		1E25AA3E1FE254BB0047E765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E25AA3D1FE254BB0047E765 /* Assets.xcassets */; };
 		1E25AA411FE254BB0047E765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E25AA3F1FE254BB0047E765 /* LaunchScreen.storyboard */; };
 		1E25AA441FE254BB0047E765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA431FE254BB0047E765 /* main.m */; };
@@ -22,6 +20,8 @@
 		1EBC9A0F1FEA0B3F00692C0C /* XCDropdownSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A0E1FEA0B3F00692C0C /* XCDropdownSegmentBar.m */; };
 		1EBC9A121FEA0E5F00692C0C /* UIView+XCDropdownSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A111FEA0E5F00692C0C /* UIView+XCDropdownSegment.m */; };
 		1EBC9A151FEA4E3B00692C0C /* XCDropdownSegment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1EE677E81FE3D6E30085CD87 /* XCDropdownSegment.bundle */; };
+		1EBC9A1D1FEB675A00692C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A1A1FEB675A00692C0C /* ViewController.m */; };
+		1EBC9A1E1FEB675A00692C0C /* XCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A1C1FEB675A00692C0C /* XCTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +45,6 @@
 		1E25AA311FE254BA0047E765 /* XCDropdownSegmentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCDropdownSegmentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E25AA341FE254BA0047E765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E25AA351FE254BA0047E765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E25AA371FE254BB0047E765 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E25AA381FE254BB0047E765 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E25AA3B1FE254BB0047E765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E25AA3D1FE254BB0047E765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E25AA401FE254BB0047E765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E25AA421FE254BB0047E765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +67,11 @@
 		1EBC9A101FEA0E5F00692C0C /* UIView+XCDropdownSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XCDropdownSegment.h"; sourceTree = "<group>"; };
 		1EBC9A111FEA0E5F00692C0C /* UIView+XCDropdownSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCDropdownSegment.m"; sourceTree = "<group>"; };
 		1EBC9A141FEA0F8C00692C0C /* XCDropdownSegmentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDropdownSegmentHeader.h; sourceTree = "<group>"; };
+		1EBC9A191FEB675A00692C0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EBC9A1A1FEB675A00692C0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EBC9A1B1FEB675A00692C0C /* XCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestViewController.h; sourceTree = "<group>"; };
+		1EBC9A1C1FEB675A00692C0C /* XCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestViewController.m; sourceTree = "<group>"; };
+		1EBC9A201FEB67BE00692C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE677E81FE3D6E30085CD87 /* XCDropdownSegment.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XCDropdownSegment.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,11 +126,13 @@
 			children = (
 				1E25AA341FE254BA0047E765 /* AppDelegate.h */,
 				1E25AA351FE254BA0047E765 /* AppDelegate.m */,
-				1E25AA371FE254BB0047E765 /* ViewController.h */,
-				1E25AA381FE254BB0047E765 /* ViewController.m */,
-				1E25AA3A1FE254BB0047E765 /* Main.storyboard */,
+				1EBC9A191FEB675A00692C0C /* ViewController.h */,
+				1EBC9A1A1FEB675A00692C0C /* ViewController.m */,
+				1EBC9A1B1FEB675A00692C0C /* XCTestViewController.h */,
+				1EBC9A1C1FEB675A00692C0C /* XCTestViewController.m */,
 				1E25AA3D1FE254BB0047E765 /* Assets.xcassets */,
 				1E25AA3F1FE254BB0047E765 /* LaunchScreen.storyboard */,
+				1EBC9A1F1FEB67BE00692C0C /* Main.storyboard */,
 				1E25AA421FE254BB0047E765 /* Info.plist */,
 				1E25AA431FE254BB0047E765 /* main.m */,
 			);
@@ -283,7 +287,6 @@
 				1E25AA411FE254BB0047E765 /* LaunchScreen.storyboard in Resources */,
 				1EBC9A091FEA071000692C0C /* XCDropdownSegmentCell.xib in Resources */,
 				1E25AA3E1FE254BB0047E765 /* Assets.xcassets in Resources */,
-				1E25AA3C1FE254BB0047E765 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,10 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EBC9A0F1FEA0B3F00692C0C /* XCDropdownSegmentBar.m in Sources */,
-				1E25AA391FE254BB0047E765 /* ViewController.m in Sources */,
 				1E25AA691FE2623C0047E765 /* XCDropdownSegment.m in Sources */,
+				1EBC9A1D1FEB675A00692C0C /* ViewController.m in Sources */,
 				1EBC9A0C1FEA0AF200692C0C /* XCDropdownSegmentConfigure.m in Sources */,
 				1EBC9A121FEA0E5F00692C0C /* UIView+XCDropdownSegment.m in Sources */,
+				1EBC9A1E1FEB675A00692C0C /* XCTestViewController.m in Sources */,
 				1EBC9A081FEA071000692C0C /* XCDropdownSegmentCell.m in Sources */,
 				1E25AA441FE254BB0047E765 /* main.m in Sources */,
 				1E25AA361FE254BA0047E765 /* AppDelegate.m in Sources */,
@@ -351,20 +355,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E25AA3A1FE254BB0047E765 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E25AA3B1FE254BB0047E765 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E25AA3F1FE254BB0047E765 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1E25AA401FE254BB0047E765 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBC9A1F1FEB67BE00692C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBC9A201FEB67BE00692C0C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
