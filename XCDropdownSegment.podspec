@@ -30,7 +30,7 @@ XCDropdownSegment，封装下拉菜单
 
 
   s.source_files  = "XCDropdownSegment/*.{h,m,xib}"
-  s.resource  = "XCDropdownSegment.bundle"
+  s.resource  = "XCDropdownSegment/XCDropdownSegment.bundle"
   s.requires_arc = true
 
 end
