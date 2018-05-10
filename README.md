@@ -56,6 +56,7 @@ if (1 == self.sectionCount)
 }
 ```
 </br>
+
 `- (NSArray<NSString *> *)dropdownSegment:(XCDropdownSegment *)dropdownSegment titlesInSection:(NSInteger)section`
 
 每段显示的文字数组，可以根据不同的 `section` 来返回不同的内容
@@ -73,6 +74,7 @@ if (1 == self.sectionCount)
 }
 ```
 </br>
+
 #### `<XCDropdownSegmentDelegate.h>`&nbsp;代理方法
 
 `- (void)dropdownSegment:(XCDropdownSegment *)dropdownSegment
@@ -81,6 +83,7 @@ if (1 == self.sectionCount)
 点击第 section 段的头部的回调
 
 </br>
+
 `- (void)dropdownSegment:(XCDropdownSegment *)dropdownSegment didSelectRow:(NSInteger)row inSection:(NSInteger)section`
 
 点击第 section 段的第 row 行的回调
