@@ -45,7 +45,7 @@
 @protocol XCDropdownSegmentDelegate<NSObject>
 @optional
 /**
- *  某南头部的回调
+ *  点击头部的回调
  */
 - (void)dropdownSegment:(XCDropdownSegment *)dropdownSegment
     didSelectHeaderInSection:(NSInteger)section;

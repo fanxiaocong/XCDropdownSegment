@@ -14,6 +14,7 @@
 		1E25AA4E1FE254BB0047E765 /* XCDropdownSegmentExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA4D1FE254BB0047E765 /* XCDropdownSegmentExampleTests.m */; };
 		1E25AA591FE254BB0047E765 /* XCDropdownSegmentExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA581FE254BB0047E765 /* XCDropdownSegmentExampleUITests.m */; };
 		1E25AA691FE2623C0047E765 /* XCDropdownSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25AA681FE2623C0047E765 /* XCDropdownSegment.m */; };
+		1E2A498F20621F5E0042E2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A498E20621F5E0042E2AA /* Main.storyboard */; };
 		1EBC9A081FEA071000692C0C /* XCDropdownSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A061FEA071000692C0C /* XCDropdownSegmentCell.m */; };
 		1EBC9A091FEA071000692C0C /* XCDropdownSegmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC9A071FEA071000692C0C /* XCDropdownSegmentCell.xib */; };
 		1EBC9A0C1FEA0AF200692C0C /* XCDropdownSegmentConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9A0A1FEA0AF100692C0C /* XCDropdownSegmentConfigure.m */; };
@@ -57,6 +58,7 @@
 		1E25AA5A1FE254BB0047E765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E25AA671FE2623C0047E765 /* XCDropdownSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDropdownSegment.h; sourceTree = "<group>"; };
 		1E25AA681FE2623C0047E765 /* XCDropdownSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCDropdownSegment.m; sourceTree = "<group>"; };
+		1E2A498E20621F5E0042E2AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1EBC9A051FEA071000692C0C /* XCDropdownSegmentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDropdownSegmentCell.h; sourceTree = "<group>"; };
 		1EBC9A061FEA071000692C0C /* XCDropdownSegmentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCDropdownSegmentCell.m; sourceTree = "<group>"; };
 		1EBC9A071FEA071000692C0C /* XCDropdownSegmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XCDropdownSegmentCell.xib; sourceTree = "<group>"; };
@@ -71,7 +73,6 @@
 		1EBC9A1A1FEB675A00692C0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1EBC9A1B1FEB675A00692C0C /* XCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestViewController.h; sourceTree = "<group>"; };
 		1EBC9A1C1FEB675A00692C0C /* XCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestViewController.m; sourceTree = "<group>"; };
-		1EBC9A201FEB67BE00692C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE677E81FE3D6E30085CD87 /* XCDropdownSegment.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XCDropdownSegment.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +133,7 @@
 				1EBC9A1C1FEB675A00692C0C /* XCTestViewController.m */,
 				1E25AA3D1FE254BB0047E765 /* Assets.xcassets */,
 				1E25AA3F1FE254BB0047E765 /* LaunchScreen.storyboard */,
-				1EBC9A1F1FEB67BE00692C0C /* Main.storyboard */,
+				1E2A498E20621F5E0042E2AA /* Main.storyboard */,
 				1E25AA421FE254BB0047E765 /* Info.plist */,
 				1E25AA431FE254BB0047E765 /* main.m */,
 			);
@@ -284,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EBC9A151FEA4E3B00692C0C /* XCDropdownSegment.bundle in Resources */,
+				1E2A498F20621F5E0042E2AA /* Main.storyboard in Resources */,
 				1E25AA411FE254BB0047E765 /* LaunchScreen.storyboard in Resources */,
 				1EBC9A091FEA071000692C0C /* XCDropdownSegmentCell.xib in Resources */,
 				1E25AA3E1FE254BB0047E765 /* Assets.xcassets in Resources */,
@@ -361,14 +363,6 @@
 				1E25AA401FE254BB0047E765 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1EBC9A1F1FEB67BE00692C0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EBC9A201FEB67BE00692C0C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
