@@ -9,10 +9,6 @@
 #ifndef XCDropdownSegmentHeader_h
 #define XCDropdownSegmentHeader_h
 
-
-#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
-
 #define RGBA_COLOR(R,G,B,A)     [UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:A]
 #define SEPERATOR_LINE_COLOR    RGBA_COLOR(226, 226, 226, 1)
 

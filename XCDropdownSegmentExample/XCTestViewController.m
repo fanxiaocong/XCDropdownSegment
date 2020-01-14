@@ -11,6 +11,8 @@
 #import "XCDropdownSegment.h"
 #import "XCDropdownSegmentHeader.h"
 
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
 
 @interface XCTestViewController ()<XCDropdownSegmentDataSource, XCDropdownSegmentDelegate>
 
@@ -32,7 +34,7 @@
  */
 - (void)setupUI
 {
-    XCDropdownSegment *segment = [[XCDropdownSegment alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT-64)];
+    XCDropdownSegment *segment = [[XCDropdownSegment alloc] initWithFrame:CGRectMake(0, 150, SCREEN_WIDTH, 50)];
     segment.dataSource = self;
     segment.delegate   = self;
     [self.view addSubview:segment];
@@ -44,6 +46,13 @@
             confi.rowHeight = 40;
         }];
     }
+}
+
+#pragma mark - 🎬 👀 Action Method 👀
+
+- (IBAction)didClickButtonAction:(id)sender
+{
+    NSLog(@"点击了按钮");
 }
 
 #pragma mark - 📕 👀 XCDropdownSegmentDataSource 👀

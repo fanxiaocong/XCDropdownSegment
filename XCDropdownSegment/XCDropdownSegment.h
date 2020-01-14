@@ -69,7 +69,7 @@
 /**
  *  更新配置
  */
-- (void)updateConfigure:(void(^)(XCDropdownSegmentConfigure *confi))configure;
+- (void)updateConfigure:(void(^)(XCDropdownSegmentConfigure *config))configure;
 
 /**
  *  刷新数据

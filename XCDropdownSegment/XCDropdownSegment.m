@@ -90,7 +90,7 @@
 - (void)setupUI
 {
     /**
-     *  视图添加结构
+     *  视图结构
      *
      *  superView
                  self
@@ -111,8 +111,7 @@
 
 - (UIButton *)mask
 {
-    if (!_mask)
-    {
+    if (!_mask) {
         UIButton *maskView = [UIButton buttonWithType:UIButtonTypeCustom];
         maskView.alpha = 0;
         maskView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:.3f];
@@ -249,8 +248,8 @@
 - (void)open
 {
     /// 显示 mask、tableView
+    self.height = CGRectGetHeight([UIScreen mainScreen].bounds);
     [UIView animateWithDuration:ANIMATION_DURATION animations:^{
-        
         self.mask.alpha = 1.f;
         self.tableView.height = [self fetchTableViewMaxHeight];
     }];
@@ -293,18 +292,13 @@
     
     // 取消 item 的选中状态
     self.segmentBar.selectedItem.selected = NO;
-    // 更新 item 的标题
-    NSInteger index = self.tableView.indexPathForSelectedRow.row;
-    NSArray *titles = [self.dataSource dropdownSegment:self titlesInSection:_currentSection];
-    if (titles.count > index) {
-        [self.segmentBar.selectedItem setTitle:titles[index] forState:UIControlStateNormal];
-    }
-    
+
     // 关闭 tableView
     [UIView animateWithDuration:ANIMATION_DURATION animations:^{
-        
         self.mask.alpha = 0.f;
         self.tableView.height = 0;
+    } completion:^(BOOL finished) {
+        self.height = self.configure.sectionHeight;
     }];
 }
 
@@ -337,6 +331,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     /// 关闭 tableView
+    // 更新 item 的标题
+    NSInteger index = self.tableView.indexPathForSelectedRow.row;
+    NSArray *titles = [self.dataSource dropdownSegment:self titlesInSection:_currentSection];
+    if (titles.count > index) {
+        [self.segmentBar.selectedItem setTitle:titles[index] forState:UIControlStateNormal];
+    }
+    
     [self close];
     
     /// 点击 tableView 中的某一行的回调
